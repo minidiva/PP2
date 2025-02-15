@@ -80,6 +80,7 @@ movies = [
 
 def isAbove55(movie):
     for x in movies:
+        print(type(x))
         if x["name"] == movie:
             if x["imdb"] > 5.5:
                 return True
@@ -87,7 +88,7 @@ def isAbove55(movie):
                 return False
     return False
         
-# print(isAbove55("We Two"))
+print(isAbove55("We Two"))
 
 def goodMovies():
     goodmovies = []
