@@ -43,32 +43,52 @@ def insert_spaces(s):
 def camel_to_snake(camel_str):
     return re.sub(r'([a-z0-9])([A-Z])', r'\1_\2', camel_str).replace('__', '_').lower()
 
-# 1 
-print('11111111111111111111111111111111111111',match_a_b(text))
 
-# 2
-print('\n2222222222222222222222222222222222222', match_a_b2or3(text))
 
-# 3
-print('\n333333333333333333333333333333333333', find_underscore_sequences(text))
+# 1 task tests
 
-# 4
-print('\n44444444444444444444444444444444444444', findOneUppercaseLetterThenlowercase(text))
+print("\nTask 1 tests:")
+print(match_a_b("a"), "a")
+print(match_a_b("ab"), "ab")
+print(match_a_b("abb"), "abb")
+print(match_a_b("abbb"), "abbb")
+print(match_a_b("abbbbbbbbbb"), "abbbbbbbbbb")
+print(match_a_b("zombie"), "zombie")
 
-# 5
-print('\n55555555555555555555555555555555555555555555', match_a_anything_b(text))
+# 2 task tests
+print("\nTask 2 tests:")
+print(match_a_b2or3("abbb"), "abbb")
+print(match_a_b2or3("abb"), "abb")
+print(match_a_b2or3("abbbbbbbb"), "abbbbbbbb")
 
-# 6 
-print('\n666666666666666666666666666666666666666', replace_special_chars(text))
+# 3 task tests
+print("\nTask 3 tests")
+print(find_underscore_sequences("stringthathave_underscore"))
+print(find_underscore_sequences("stringThatDon't"))
 
-# 7 
-print('\n77777777777777777777777777777777777777777', snake_to_camel(text))
+# 4 task tests
+print("\nTask 4 tests")
+print(findOneUppercaseLetterThenlowercase("Nusdhfufu"))
+print(findOneUppercaseLetterThenlowercase("asjdsjad"))
 
-# 8
-print('\n88888888888888888888888888888888888888888', split_at_uppercase(text))
+# 6 task tests
+print("\nTask 6 tests")
+print("Wow,This is really interesting! -> ", replace_special_chars("Wow,This is really interesting!"))
 
-# 9
-print('\n9999999999999999999999999999999999999', insert_spaces(text))
+# 7 task tests
+print("\nTask 7 tests")
+print("how_i_did_that -> ", snake_to_camel("how_i_did_that"))
+print("snake_to_camel -> ", snake_to_camel("snake_to_camel"))
 
-# 10
-print('\n1000000000000000000000000000000000000', camel_to_snake(text))
+# 8 task tests
+print("\nTask 8 tests")
+print("HelloWorldExample -> ", split_at_uppercase("HelloWorldExample"))  
+
+# 9 task tests
+print("\nTask 9 tests")
+print("HelloWorldExample -> ", insert_spaces("HelloWorldExample")) 
+
+# 10 task tests
+print("\nTask 10 tests")
+print("SnakeToCamel -> ", camel_to_snake("SnakeToCamel"))
+print("HowIDidThat -> ", camel_to_snake("HowIDidThat"))

@@ -1,49 +1,148 @@
-The quick brown fox jumps over the lazy dog. 
-Email: example.user123@mail.com, another.email@domain.org
-Phone: +1-800-555-0199, (123) 456-7890
-Address: 1234 Elm Street, Apt 567, Springfield, IL 62704
-
-Date: 12/31/2024, 2024-12-31, 31-12-2024
-Time: 14:30, 02:30 PM, 23:59
-
-Usernames:
-- user_001
-- Admin_99
-- regexMaster_123
-
-Sentences with numbers: 
-- There are 42 apples in the basket.
-- The price of the laptop is $999.99.
-- My ID is A1234567.
-
-Special characters: @#$%^&*()_+={}[]|;:'",.<>?/~`
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-Suspendisse potenti. Sed euismod, nisi ac venenatis luctus, velit felis posuere lacus, at venenatis justo neque sed lorem.
-
-John's email is john.doe@example.com, and his backup is johndoe123@work.net.  
-Call him at +1-555-123-4567 or his office line (555) 765-4321.  
-His website is https://www.johndoe.dev, and his IP address is 192.168.0.1.  
-The price of the item is $19.99, but with a discount, it’s now $14.99.  
-Today's date is 17/02/2025, and another format is 2025-02-17.  
-Here’s some HTML: <div class="container">Hello, World!</div>  
-Watch out for special characters like !@#$%^&*()_+={}[]|:;"'<>,.?/
-
-A regular expression (or RE) specifies a set of strings that matches it; 
-the functions in this module let you check if a particular string matches a given regular expression (or if a given regular expression matches a particular string, which comes down to the same thing). 
-Regular expressions can be concatenated to form new regular expressions; 
-if A and B are both regular expressions, then AB is also a regular expression. 
-In general, if a string p matches A and another string q matches B, the string pq will match AB. 
-This holds unless A or B contain low precedence operations; boundary conditions between A and B; 
-or have numbered group references. 
-Thus, complex expressions can easily be constructed from simpler primitive expressions like the ones described here. 
-For details of the theory and implementation of regular expressions, consult the Friedl book [Frie09], or almost any textbook about compiler construction. 
-A brief explanation of the format of regular expressions follows. 
-For further information and a gentler presentation, consult the Regular Expression HOWTO. 
-Regular expressions can contain both special and ordinary characters. 
-Most ordinary characters, like 'A', 'a', or '0', are the simplest regular expressions; 
-they simply match themselves. You can concatenate ordinary characters, so last matches the string 'last'. 
-(In the rest of this section, we’ll write RE’s in this special style, usually without quotes, and strings to be matched 'in single quotes'.)
-
-abbb
-abb
+ДУБЛИКАТ
+Филиал ТОО EUROPHARMA Астана
+БИН 080841000761
+НДС Серия 58001
+ № 0014377
+Касса 300-189
+Смена 10
+Порядковый номер чека №64
+Чек №2331180266
+Кассир Аптека 17-1
+ПРОДАЖА
+1.
+Натрия хлорид 0,9%, 200 мл, фл
+2,000 x 154,00
+308,00
+Стоимость
+308,00
+2.
+Борный спирт 3%, 20 мл, фл.
+1,000 x 51,00
+51,00
+Стоимость
+51,00
+3.
+Шприц 2 мл, 3-х комп. (Bioject)
+2,000 x 16,00
+32,00
+Стоимость
+32,00
+4.
+Система для инфузии Vogt Medical
+2,000 x 60,00
+120,00
+Стоимость
+120,00
+5.
+Naturella прокладки Классик макси №8
+1,000 x 310,00
+310,00
+Стоимость
+310,00
+6.
+AURA Ватные диски №150
+1,000 x 461,00
+461,00
+Стоимость
+461,00
+7.
+Чистая линия скраб мягкий 50 мл
+1,000 x 381,00
+381,00
+Стоимость
+381,00
+8.
+Чистая линия  скраб очищающийабрикос 50 мл
+1,000 x 386,00
+386,00
+Стоимость
+386,00
+9.
+Чистая линия скраб мягкий 50 мл
+1,000 x 381,00
+381,00
+Стоимость
+381,00
+10.
+Carefree салфетки Алоэ воздухопроницаемые №20
+1,000 x 414,00
+414,00
+Стоимость
+414,00
+11.
+Pro Series Шампунь яркий цвет 500мл
+1,000 x 841,00
+841,00
+Стоимость
+841,00
+12.
+Pro Series бальзам-ополаскиватель для длител ухода за окрашенными волосами Яркий цвет 500мл
+1,000 x 841,00
+841,00
+Стоимость
+841,00
+13.
+Clear шампунь Актив спорт 2в1 мужской  400 мл
+1,000 x 1 200,00
+1 200,00
+Стоимость
+1 200,00
+14.
+Bio World (HYDRO THERAPY)Мицеллярная вода 5в1, 445мл
+1,000 x 1 152,00
+1 152,00
+Стоимость
+1 152,00
+15.
+Bio World (HYDRO THERAPY) Гель-мусс для умывания с гиалуроновойкислотой, 250мл
+1,000 x 1 152,00
+1 152,00
+Стоимость
+1 152,00
+16.
+[RX]-Натрия хлорид 0,9%, 100 мл, фл.
+1,000 x 168,00
+168,00
+Стоимость
+168,00
+17.
+[RX]-Дисоль р-р 400 мл, фл.
+1,000 x 163,00
+163,00
+Стоимость
+163,00
+18.
+Тагансорбент с иономи серебра №30,пор.
+1,000 x 1 526,00
+1 526,00
+Стоимость
+1 526,00
+19.
+[RX]-Церукал 2%, 2 мл, №10, амп.
+2,000 x 396,00
+792,00
+Стоимость
+792,00
+20.
+[RX]-Андазол 200 мг, №40, табл.
+1,000 x 7 330,00
+7 330,00
+Стоимость
+7 330,00
+Банковская карта:
+18 009,00
+ИТОГО:
+18 009,00
+в т.ч. НДС 12%:
+0,00
+Фискальный признак:
+2331180266
+Время: 18.04.2019 11:13:58
+г. Нур-султан,Казахстан, Мангилик Ел,19, нп-5
+Оператор фискальных данных: АО"Казахтелеком"Для проверки чека зайдите на сайт:consumer.oofd.kz
+ФИСКАЛЬНЫЙ ЧЕК
+ФП
+ИНК ОФД: 311559
+Код ККМ КГД (РНМ): 620300145316
+ЗНМ: SWK00034961
+WEBKASSA.KZ
