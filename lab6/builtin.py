@@ -1,11 +1,10 @@
-from functools import reduce
 import time
 import math
 
 
 # 1
 def multiply_list(numbers):
-    return reduce(lambda x, y: x * y, numbers)
+    return math.prod(numbers)
 
 numbers = [2, 3, 4, 5]
 print("Task 1")
