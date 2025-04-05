@@ -88,6 +88,14 @@ def main():
                 elif event.button == 3:  # Right click
                     if tool in ['pen', 'eraser']:
                         radius = max(1, radius - 1)  # Decrease radius
+                
+            if event.type == pygame.KEYDOWN:    
+                if event.key == pygame.K_UP:
+                    radius += 3
+                    print(radius)
+                if event.key == pygame.K_DOWN:
+                    radius -= 3
+                    print(radius)
             
             if event.type == pygame.MOUSEMOTION:
                 if drawing and tool in ['pen', 'eraser']:

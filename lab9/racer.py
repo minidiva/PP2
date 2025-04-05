@@ -171,7 +171,7 @@ while running:
         screen.blit(obstacle_img, obstacle["rect"].topleft)
     
 
-    score_text = font.render(f"Score: {score}", True, WHITE)
+    score_text = font.render(f"Speed: {score}", True, BLACK)
     screen.blit(score_text, (10, 10))
     
     pygame.display.flip()
